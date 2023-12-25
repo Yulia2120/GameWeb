@@ -243,6 +243,7 @@
   font-family: var(--title-font);
   text-transform: uppercase;
   background: linear-gradient(0deg, #888888 0%, #fff 75%);
+  -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

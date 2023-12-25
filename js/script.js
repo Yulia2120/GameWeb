@@ -103,3 +103,34 @@ $(".coment_slick").on("setPosition", function () {
 
   $(".coment_slick .slick-slide").height(maxHeight);
 });
+
+///////////////////////////////////////////////////////////////
+//any questions? section
+
+document
+  .getElementById("accordionContainer")
+  .addEventListener("click", function (event) {
+    const target = event.target;
+
+    // Check if the clicked element is an accordion header
+    if (target.classList.contains("accordion-header")) {
+      const section = target.nextElementSibling;
+
+      // Toggle the active class to trigger the transition
+      section.classList.toggle("active");
+
+      // Hide all other sections
+      const allSections = document.querySelectorAll(
+        ".accordion-section-content"
+      );
+      allSections.forEach(function (otherSection) {
+        if (
+          otherSection !== section &&
+          otherSection.classList.contains("active")
+        ) {
+          otherSection.classList.remove("active");
+        }
+      });
+    }
+  });
+
