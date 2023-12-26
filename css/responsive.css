@@ -50,4 +50,108 @@
   .header.sticky {
     padding: 10px 0;
   }
+  .swiper-slide {
+    height: 70vh;
+  }
+  .con_data h1 {
+    font-size: 35px;
+  }
+  .d-val {
+    font-size: 35px;
+  }
+  .slider_text {
+    max-width: 400px;
+    min-width: 400px;
+    font-size: 15px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .p_de_cont {
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 35px !important;
+  }
+  .w-50 {
+    width: 100%;
+  }
+  /* game */
+
+  .game_bg {
+    padding: 40px;
+  }
+  .game_bg img {
+    display: none;
+  }
+
+  /* s-locations */
+  .s-locations .flex {
+    flex-wrap: wrap;
+  }
+
+  /* card-gallary */
+  .game-cards .flex-sb:first-child {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .game-cards .flex-sb div:nth-child(2) {
+    margin-top: 1rem;
+  }
+  .gallary-item {
+    width: 100%;
+  }
+
+  /* any questions */
+
+  #accordionContainer {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .accordion-section-title {
+    height: auto;
+  }
+
+  /* download_new */
+  .dw-img {
+    display: none;
+  }
+  .download_bg {
+    padding: 40px;
+  }
+  /* payment_methods */
+  .payment_methods .flex-sb {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .payment_methods .gap-15 {
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  .py-img {
+    width: 29%;
+  }
+  .img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  /* footer */
+  footer .flex-left {
+    flex-direction: column;
+  }
+  footer .w-33,
+  footer .w-66 {
+    width: 100%;
+  }
+  .subfooter .flex {
+    flex-direction: column;
+  }
 }

@@ -10,7 +10,6 @@
   --body-font: "Manrope", Helvetica, Arial, sans-serif;
   --border-default: solid 1px rgba(30, 30, 30, 1);
   --bg-color-even: #e8e8e8;
-  --bg-color-odd: #f4f4f4;
   --bg-dark-1: #1e1f22;
   --bg-dark-1-rgb: 30, 31, 34;
   --bg-dark-2: #252629;
@@ -292,8 +291,3 @@ a {
 body.dark-scheme {
   background: var(--bg-dark-1);
 }
-
-/* .ht {
-  width: 100%;
-  height: 200vh;
-} */
