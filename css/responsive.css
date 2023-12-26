@@ -1,0 +1,53 @@
+@media (max-width: 1130px) {
+  .logo_main {
+    display: none;
+  }
+  .logo_mobile {
+    display: block;
+  }
+  .header_menu {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    top: 0;
+    left: -250px;
+    background-color: var(--bg-dark-2);
+    padding: 30px;
+    width: 250px;
+    height: 100vh;
+    transition: left 0.3s ease;
+  }
+
+  header.sticky .header_menu {
+    transition: left 0.3s ease;
+  }
+
+  header ul li::before {
+    display: none;
+  }
+
+  .menu_side_area {
+    margin-right: 15px;
+  }
+
+  .menu_side_area a {
+    margin-right: 20px;
+  }
+
+  .menu_side_area i {
+    display: block;
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 555px) {
+  header.transparent {
+    padding: 30px 10px;
+  }
+  .header.sticky {
+    padding: 10px 0;
+  }
+}

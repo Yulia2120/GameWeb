@@ -67,7 +67,7 @@
           </ul>
           <div class="menu_side_area flex gap-1">
             <a href="/" class="btn">Get Hosting</a>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
           </div>
         </div>
       </div>
@@ -841,7 +841,158 @@
           </div>
         </div>
       </section>
+      <section class="payment_methods">
+        <div class="container">
+          <div class="flex flex-sb">
+            <div>
+              <div class="subtitle mb-1">Payment Methods</div>
+              <h2 class="title">We accept</h2>
+            </div>
+            <div>
+              <div class="flex gap-15">
+                <div class="py-img">
+                  <img
+                    src="images/payments/visa.webp"
+                    alt="payment"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="py-img">
+                  <img
+                    src="images/payments/mastercard.webp"
+                    alt="payment"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="py-img">
+                  <img
+                    src="images/payments/paypal.webp"
+                    alt="payment"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="py-img">
+                  <img
+                    src="images/payments/american-express.webp"
+                    alt="payment"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="py-img">
+                  <img
+                    src="images/payments/jcb.webp"
+                    alt="payment"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="py-img">
+                  <img
+                    src="images/payments/skrill.webp"
+                    alt="payment"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="flex gap-2 flex-left">
+          <div class="w-33">
+            <img src="images/logo.png" alt="logo footer" />
+            <p class="mt-1">
+              Game Servers Playhost for Gamers Plenty of games Reliable Playhost
+              Round-the-clock Support High Performance Servers Global Coverage
+              Customized Settings Quick Download Games Unique Features Optimized
+              Gameplay Servers for Team Play Flexible Data Security Dedicated
+              Resources Mod Support Custom Plugins Guaranteed Stability
+              Multi-click Connection Regular backups Online monitoring.
+            </p>
+          </div>
+          <div class="w-33">
+            <div class="flex flex-left gap-2">
+              <div class="w-66">
+                <div class="widget">
+                  <h5 class="mb-1">Game Server</h5>
+                  <ul>
+                    <li><a href="#">Thunder and City</a></li>
+                    <li><a href="#">Mystic Racing Z</a></li>
+                    <li><a href="#">Silent Wrath</a></li>
+                    <li><a href="#">Funk Dungeon</a></li>
+                    <li><a href="#">Galactic Odyssey</a></li>
+                    <li><a href="#">Warfare Legends</a></li>
+                    <li><a href="#">Raceway Revolution</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-66">
+                <div class="widget">
+                  <h5 class="mb-1">Pages</h5>
+                  <ul>
+                    <li><a href="#">Game Server</a></li>
+                    <li><a href="#">Knowledgebase</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Affliates</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-33">
+            <div class="widget">
+              <h5 class="mb-1">Newsletter</h5>
+              <form
+                action="blank.php"
+                class="form-dark"
+                method="post"
+                id="form_subscribe"
+              >
+                <div class="text-center">
+                  <input
+                    type="text"
+                    id="txt-subscribe"
+                    name="txt-subscribe"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                  <button class="btn_2 p-absolute">$</button>
+                </div>
+              </form>
+              <small>Your email is safe with us. We don't spam.</small>
+              <div class="widget mt-2">
+                <h5>Follow Us On</h5>
+                <div class="social-icons flex gap-1 mt-1">
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-discord"></i></a>
+                  <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="subfooter">
+        <div class="container">
+          <div class="flex flex-sb">
+            <div>Copyright &copy; 2023 - Playhost</div>
+            <ul class="menu-simple flex gap-2">
+              <li><a href="#">Terms &amp; Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- scripts -->
     <!-- ANIMATION ON SCROLL CDN -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
